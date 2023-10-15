@@ -1,0 +1,46 @@
+# Ignorar diretórios de sistema do Windows
+AppData/
+Contacts/
+Downloads/
+OneDrive/
+Saved Games/
+...
+
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Arquivos gerados pelo Eclipse
+bin/
+tmp/
+tmp2/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Logs e arquivos de saída
+*.log
+*.out
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!src/main/webapp/WEB-INF/maven/
+
+# Gradle
+build/
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos compilados
+*.class
+
+# Arquivos de dependência
+lib/
+libs/
+
+# Ignora arquivos e diretórios específicos que podem conter .gitignore
+!.gitignore
